@@ -15,7 +15,7 @@ const typeDefs = gql`
         username: String!
     }
     type Pet {
-        id: String!
+        id: ID!
         createdAt: String!
         name: String!
         type: String!
