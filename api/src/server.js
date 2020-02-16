@@ -6,8 +6,11 @@ const {models, db} = require('./db')
 const server = new ApolloServer({
   typeDefs,
   resolvers,
-  context() {
-    return {models, db}
+  async context({req}) {
+    // const jwt = req.headers.authorization
+    // throw new Error('not auth')
+    const user = models.User.findOne()
+    return {models, db, user}
   }
 })
 

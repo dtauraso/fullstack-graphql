@@ -8,19 +8,25 @@
       "id": "1",
       "createdAt": "234567876543",
       "name": "Moose",
-      "type": "DOG"
+      "type": "DOG",
+      "img" : "https://placedog.net/300/300",
+      "user" : "jBWMVGjm50l6LGwepDoty"
     },
     {
       "id": "2",
       "createdAt": "9876543234567",
       "name": "Daryl",
-      "type": "CAT"
+      "type": "CAT",
+      "img" : "http://placekitten.com/300/300",
+      "user" : "jBWMVGjm50l6LGwepDoty"
     },
     {
-      "id": "pFC0RrjV4R7UqD3KUnPs9",
-      "createdAt": "1581543633245",
+      "id": "bMRiq6Me8YMh6y6D32-h2",
+      "createdAt": "1581544482383",
       "name": "Daryl 2",
-      "type": "CAT"
+      "type": "CAT",
+      "img" : "http://placekitten.com/300/300",
+      "user" : "jBWMVGjm50l6LGwepDoty"
     }
   ]
 }

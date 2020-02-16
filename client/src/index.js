@@ -8,7 +8,10 @@ import './index.css'
 
 const Root = () => (
   <BrowserRouter>
-    <App />
+    <ApolloProvider client={client}>
+     <App />
+
+    </ApolloProvider>
   </BrowserRouter>
 )
 

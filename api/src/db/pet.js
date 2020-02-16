@@ -16,12 +16,15 @@ const createPetModel = db => {
 
     create(pet) {
       const newPet = {id: nanoid(), createdAt: String(Date.now()), ...pet}
-      console.log(newPet)
+      // console.log(newPet)
       db.get('pet')
         .push(newPet)
         .write()
 
       return newPet
+    },
+    update(id, update) {
+      
     }
   }
 }
